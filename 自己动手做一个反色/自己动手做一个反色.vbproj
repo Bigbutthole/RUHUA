@@ -51,6 +51,9 @@
   <PropertyGroup>
     <StartupObject>自己动手做一个反色.Module1</StartupObject>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ide_web_128px_1173692_easyicon.net.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System" />
@@ -101,6 +104,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\a.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ide_web_128px_1173692_easyicon.net.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
